@@ -1,0 +1,33 @@
+Propagando las noticias
+(UVA 924 - http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=11&page=show_problem&problem=865):
+
+En una organización grande, todo el mundo sabe mucho de sus colegas. Sin embargo, las relaciones de amistad se mantiene con sólo unos pocos de ellos, a quienes se les dice de noticias.
+
+Supongamos que cada vez que un empleado tiene conocimiento de una noticia, se lo dice a todos sus amigos al día siguiente. Así, el primer día, la fuente de la información que le dice a sus amigos, en el segundo día, los amigos la fuente de decirle a sus amigos, a los tres días, los amigos de los amigos de la fuente de "decirle a sus amigos; y así sucesivamente.
+
+El objetivo es determinar:
+• El tamaño máximo auge al día, que es el mayor número de empleados que, en un solo día, oír la noticia por primera vez, y
+• El día primer boom, que es el primer día en que el tamaño máximo auge se produce a diario.
+
+Escriba un programa que, dadas las relaciones de amistad entre los empleados y la fuente de una noticia, calcula el tamaño máximo auge al día y el día primer auge de ese proceso la difusión de información.
+
+Entrada:
+La primera línea de la entrada contiene el número E de los empleados (1 <= E <= 2500). Los empleados están numerados del 0 a E-1.
+
+Cada una de las líneas E siguiente especifica el grupo de amigos de un empleado (desde el empleado 0 al E-1). Una valor N indicando el total de amigos del  E (0 <= N <15), seguido de N números enteros que representan distintos amigos del empleado. Todos los números enteros son separados por un único espacio.
+
+La siguiente línea contiene un entero T (1 <T = <60), que es el número de casos de prueba.
+
+Cada una de las líneas T siguiente contiene un empleado, lo que representa la fuente (única) de la noticia en el caso de la prueba.
+
+
+Salida:
+La salida consiste en líneas T, una por cada caso de prueba.
+Si ningún empleado (aunque la fuente) escucha la noticia, la línea de salida contiene el entero 0.
+De lo contrario, la línea de salida contiene dos enteros, H y D, separados por un espacio único, donde M es el tamaño máximo auge a diario y D es el día en primer boom.
+
+Ejemplo de Entrada:  
+
+6
+2 1 2
+2 3 4
