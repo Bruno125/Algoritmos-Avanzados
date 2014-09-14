@@ -1,0 +1,36 @@
+EJERCICIO: Depósitos de Aceite
+(UVA 572 - http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=7&page=show_problem&problem=513):
+
+La empresa GeoSurvComp  s responsable de la detección de depósitos subterráneos de petróleo. GeoSurvComp trabaja con una región rectangular de tierra a la vez, y crea una rejilla que divide la tierra en numerosas parcelas cuadradas. A continuación, analiza cada parcela por separado, utilizando equipos de detección para determinar si la trama contiene petróleo. 
+
+Una trama que contiene petróleo que se llama una cavidad. Si dos cavidades son adyacentes, entonces son parte del mismo depósito de petróleo. Los depósitos de petróleo pueden ser bastante grandes y pueden tener muchos bolsillos. Su trabajo consiste en determinar el número de depósitos de petróleo diferentes que se encuentran en una cuadrícula. 
+
+Entrada:
+El archivo de entrada contiene una o más redes. Cada red comienza con una línea que contiene m y n, el número de filas y columnas en la cuadrícula, separadas por un espacio. Si m = 0 que indica el final de la entrada, m y n están en el rango de 1 a 100. A continuación son m líneas de n caracteres cada una (sin contar los caracteres de fin de línea). Cada carácter corresponde a una trama, con valores: `*', que representa la ausencia de aceite, y '@', lo que representa una bolsa de petróleo
+Salida:
+Para cada caso de prueba, genere una línea que contenga un número entero del total de depósitos que existen.
+
+
+Ejemplo de Entrada:  
+
+1 1
+*
+3 5
+*@*@*
+**@**
+*@*@*
+1 8
+@@****@*
+5 5
+****@
+*@@*@
+*@**@
+@@@*@
+@@**@
+0 0
+Ejemplo de Salida:  
+
+0
+1
+2
+2
