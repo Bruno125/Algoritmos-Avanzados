@@ -1,0 +1,3 @@
+Dia auge: 1 Valor auge: 0
+Dia auge: 0 Valor auge: 1
+Dia auge: 2 Valor auge: 2
