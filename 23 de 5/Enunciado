@@ -1,0 +1,32 @@
+EJERCICIO: 23 de 5
+
+
+Tu misión es escribir un programa que decida si puedes obtener una expresión aritmética que contenga 5 números dados ai (1 ≤ i ≤ 5) y que de cómo resultado 23.
+Para el problema, solo puede considerar expresiones aritméticas de la forma:
+
+(((a1 o1 a2) o2 a3) o3 a4) o4 a5
+
+Donde ai es uno de los números que pertenece al set de entrada.
+Y oi es una operación. oi pertenece a { , -, *}
+
+La entrada son los 5 números. Ud. Deberá responder si es posible armar una expresión matemática que de 23 según lo indicado usando esos números. Ejemplo, si le dan los números 2 3 5 7 11, es posible armar la expresión 11 * 2 + 3 + 5 – 7 que da como resultado 23.
+En función al problema, desarrolle:
+
+1) Un pseudocódigo que solucione el problema.
+  2) Programe su solución. La entrada / salida debe ser así:
+  a. Por cada caso, aparecen 5 números, que corresponde al set que puedes usar para armar la expresión
+  b. Cuando los 5 números sean cero, terminar el programa. (no debe procesarse este caso)
+  c. Imprima “Posible” o “Imposible” en función a si se puede o no armar la expresión.
+  
+  
+Ejemplo de entrada
+1 1 1 1 1
+1 2 3 4 5
+2 3 5 7 11
+0 0 0 0 0
+
+
+Ejemplo de salida
+Imposible
+Posible
+Posible
