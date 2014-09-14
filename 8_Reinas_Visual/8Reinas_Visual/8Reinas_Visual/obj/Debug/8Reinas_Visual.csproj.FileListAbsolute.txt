@@ -1,0 +1,12 @@
+D:\Gonzalo\CD 2013-02 SI169 Algoritmos Avanzados_OK\1. Material\Unidad 2\Clase\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\bin\Debug\8Reinas_Visual.exe.config
+D:\Gonzalo\CD 2013-02 SI169 Algoritmos Avanzados_OK\1. Material\Unidad 2\Clase\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\bin\Debug\8Reinas_Visual.exe
+D:\Gonzalo\CD 2013-02 SI169 Algoritmos Avanzados_OK\1. Material\Unidad 2\Clase\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\bin\Debug\8Reinas_Visual.pdb
+D:\Gonzalo\CD 2013-02 SI169 Algoritmos Avanzados_OK\1. Material\Unidad 2\Clase\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\obj\Debug\8Reinas_Visual.csprojResolveAssemblyReference.cache
+D:\Gonzalo\CD 2013-02 SI169 Algoritmos Avanzados_OK\1. Material\Unidad 2\Clase\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\obj\Debug\_8Reinas_Visual.frmMain.resources
+D:\Gonzalo\CD 2013-02 SI169 Algoritmos Avanzados_OK\1. Material\Unidad 2\Clase\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\obj\Debug\_8Reinas_Visual.Properties.Resources.resources
+D:\Gonzalo\CD 2013-02 SI169 Algoritmos Avanzados_OK\1. Material\Unidad 2\Clase\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\obj\Debug\8Reinas_Visual.csproj.GenerateResource.Cache
+D:\Gonzalo\CD 2013-02 SI169 Algoritmos Avanzados_OK\1. Material\Unidad 2\Clase\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\obj\Debug\8Reinas_Visual.exe
+D:\Gonzalo\CD 2013-02 SI169 Algoritmos Avanzados_OK\1. Material\Unidad 2\Clase\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\obj\Debug\8Reinas_Visual.pdb
+C:\Bruno_UPC\Ciclo 2014-02\Alogirtmos avanzados\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\bin\Debug\8Reinas_Visual.exe.config
+C:\Bruno_UPC\Ciclo 2014-02\Alogirtmos avanzados\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\obj\Debug\8Reinas_Visual.exe
+C:\Bruno_UPC\Ciclo 2014-02\Alogirtmos avanzados\8_Reinas_Visual\8Reinas_Visual\8Reinas_Visual\obj\Debug\8Reinas_Visual.pdb
