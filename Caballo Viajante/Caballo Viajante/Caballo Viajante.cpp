@@ -27,25 +27,28 @@ void inicializaTablero(){
 }
 
 void posicionaAdyacentes(int distanciaPrevia,int f, int c){
-	if(f<0 || f>=tablero.size() || c<0 || c>=tablero.size())	return;
-	if(tablero[f][c]==-1){
-		tablero[f][c]=distanciaPrevia+1;
-		pendientes.push(make_pair(f,c));
+	//Intenta modificar el valor de la distancia
+	if(f<0 || f>=tablero.size() || c<0 || c>=tablero.size())	return; //Está fuera de los límites
+	if(tablero[f][c]==-1){ //Aún no se setea la distancia, por eso se la seteamos
+		tablero[f][c]=distanciaPrevia+1; // Su distancia es igual a la distancia previa + 1
+		pendientes.push(make_pair(f,c)); // Se añade esta casilla a la cola de pendientes, para que también se le aplique BFS
 	}
 }
 
 int MenorCantidadMovimientos(pair<int,int> origen,pair<int,int> destino){
-	inicializaTablero();
-	pendientes.push(origen);
-	tablero[origen.first][origen.second]=0;
+	inicializaTablero(); // Inicializa el tablero con distancias=-1, y además vacía la cola de pendientes
+	pendientes.push(origen); //Agrega la casilla origen a la cola de pendientes 
+	tablero[origen.first][origen.second]=0; //La distancia a si misma es 0
 
-	while(!pendientes.empty()){
+	while(!pendientes.empty()){ //Bucle que finaliza sólo cuando ya no quedan más casillas por evaluar
 		pair<int,int> casillaEvaluando=pendientes.front();
 		pendientes.pop();
 		int f=casillaEvaluando.first,c=casillaEvaluando.second;
 		int distActual=tablero[f][c];
-		if(f==destino.first && c==destino.second)
+		if(f==destino.first && c==destino.second) //Se encontró la casilla destino
 			return distActual;
+
+		//Se intenta colocar al caballo en las casillas que le corresponden, debido a su movimiento en "L"
 		posicionaAdyacentes(distActual,f+2,c+1);
 		posicionaAdyacentes(distActual,f+1,c+2);
 		posicionaAdyacentes(distActual,f-1,c+2);
