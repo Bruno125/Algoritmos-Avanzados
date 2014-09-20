@@ -1,0 +1,8 @@
+Para llegar de e2 a e4, se necesitan 2 movimientos
+Para llegar de a1 a b2, se necesitan 4 movimientos
+Para llegar de b2 a c3, se necesitan 2 movimientos
+Para llegar de a1 a h8, se necesitan 6 movimientos
+Para llegar de a1 a h7, se necesitan 5 movimientos
+Para llegar de h8 a a1, se necesitan 6 movimientos
+Para llegar de b1 a c3, se necesitan 1 movimientos
+Para llegar de f6 a f6, se necesitan 0 movimientos
