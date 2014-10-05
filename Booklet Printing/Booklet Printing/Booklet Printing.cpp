@@ -32,9 +32,11 @@ void ImprimeLibro(){
 		printf("Sheet %d, front:",i+1);
 		if(libro[i].first.first==LIBRE)	printf("Blank");	else printf("%d",libro[i].first.first);
 		if(libro[i].first.second==LIBRE)	printf("Blank");	else printf("%d",libro[i].first.second);
+		printf("\n");
 		printf("Sheet %d, back:",i+1);
 		if(libro[i].second.first==LIBRE)	printf("Blank");	else printf("%d",libro[i].second.first);
 		if(libro[i].second.second==LIBRE)	printf("Blank");	else printf("%d",libro[i].second.second);
+		printf("\n");
 	}
 }
 
@@ -46,8 +48,10 @@ void colocaPagina(int num,bool cara,bool lado, int pagina){
 	if(reversoLibre(cara,lado,pagina)){
 		colocaPagina(num+1,!cara,!lado,pagina);
 	}else{
-		if(pagina+1>=libro.size())
-			colocaPagina();
+		if(pagina+1>=libro.size())//Ya no hay más paginas, por lo tanto lo debe poner en la misma página, pero en la siguiente cara
+			colocaPagina(num+1,!cara,lado,pagina);
+		else//
+			colocaPagina(num+1,!cara,!lado,pagina+1);
 	}
 
 
@@ -63,11 +67,13 @@ Libro libroConNumeroDePaginas(int nPaginas){
 		libro[i].second.first=LIBRE;
 		libro[i].second.second=LIBRE;
 	}
-
+	return libro;
 }
 
 int main(array<System::String ^> ^args)
 {
+	freopen("in.txt","rt",stdin);
+	freopen("out.txt","wt",stdout);
 	while(1){
 		int n;
 		scanf("%d",&n);
