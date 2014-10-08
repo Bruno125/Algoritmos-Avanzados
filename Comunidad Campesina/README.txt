@@ -1,0 +1,3 @@
+Ambas soluciones funcionan. Sin embargo, la solución 1 no es adecuada. El enunciado te pide recorrer las casas en sentido horario, y dicha solución no lo hace de esa forma. La solución 2, por otro lado, si lo hace.
+
+Se mantienen ambas soluciones en caso de que para algún otro ejercicio en el que el orden del recorrido no importe, en cuyo caso se podría reutilizar la solución 1. Además, dejando de lado el orden del recorrido, la solución 1 es (en mi opinión) más entendible.
