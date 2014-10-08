@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rare order", "Rare order\Rare order.vcxproj", "{7A2D344A-84A6-4A07-8A3D-0D8B5850B933}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2D344A-84A6-4A07-8A3D-0D8B5850B933}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A2D344A-84A6-4A07-8A3D-0D8B5850B933}.Debug|Win32.Build.0 = Debug|Win32
+		{7A2D344A-84A6-4A07-8A3D-0D8B5850B933}.Release|Win32.ActiveCfg = Release|Win32
+		{7A2D344A-84A6-4A07-8A3D-0D8B5850B933}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
