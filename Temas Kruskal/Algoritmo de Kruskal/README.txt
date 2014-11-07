@@ -1,0 +1,1 @@
+Algoritmo de kruskal genérico utilizando una estructura de Aristas, que almacena origen, destino y pesos

@@ -1,0 +1,1 @@
+Algoritmo genérico de Weighted Quick Union utlizando Path compresion
